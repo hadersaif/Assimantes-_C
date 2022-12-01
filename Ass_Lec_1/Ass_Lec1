@@ -1,0 +1,63 @@
+#include <stdio.h>
+
+int main(){
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> ASS_1_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// This assignment prints a 6 row pyramid
+
+	// for(int i=0; i<6; i++){
+	// 			for(int j=0; j<5-i; j++){
+	// 				printf(" ");
+	// 			}
+	// 			for(int j=0; j<2*i+1; j++){
+	// 				printf("*");
+	// 			}
+	// 			printf("\n");
+	// 		}
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> ASS_1_2>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// This assignment takes 3 numbers and print them in reversed order.
+
+
+// int in1, in2, in3;
+// 	printf("Please Enter the first number 1:");
+// 			scanf("%d", &in1);
+// 			printf("Please Enter the second number 2:");
+// 			scanf("%d", &in2);
+// 			printf("Please Enter the third number 3:");
+// 			scanf("%d", &in3);
+// 			printf("number 3: %d\n", in3);
+// 			printf("number 2: %d\n", in2);
+// 			printf("number 1: %d\n", in1);
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> ASS_1_3>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+// This assignment executes some bitwise operations
+// on two input numbers
+
+            // int in1, in2;
+			// printf("Please Enter the first number 1:");
+			// scanf("%d", &in1);
+			// printf("Please Enter the second number 2:");
+			// scanf("%d", &in2);
+
+			// printf("%d & %d = %d\n", in1, in2, in1 & in2);
+			// printf("%d | %d = %d\n", in1, in2, in1 | in2);
+			// printf("%d ^ %d = %d\n", in1, in2, in1 ^ in2);
+			// printf("%d << %d = %d\n", in1, in2, in1 << in2);
+			// printf("%d >> %d = %d\n", in1, in2, in1 >> in2);
+
+
+
+
+
+
+
+
+}			
