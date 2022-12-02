@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include "LinkedList.h"
 int main(){
-    printf("Hi, which Assignment would u like to see. 1-2\n");
+    printf("Hi, which Assignment would u like to see. 1&2\n");
     int in1, in2=0, count=0, *dynamic_arr, arr[10];
     scanf("%d", &in1);
     switch (in1) {
