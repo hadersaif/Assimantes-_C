@@ -5,10 +5,10 @@
 #include <stdio.h>
 #include "LinkedList.h"
 int main(){
-    printf("Hi, which Assignment would u like to see. 1&2\n");
-    int in1, in2=0, count=0, *dynamic_arr, arr[10];
-    scanf("%d", &in1);
-    switch (in1) {
+    printf("which Assignment would u like to see. 1&2\n");
+    int x1, x2=0, count=0, *dynamic_arr, arr[10];
+    scanf("%d", &x1);
+    switch (x1) {
         case 1:
             // This Assignment allows the user to use linked lists with the ability to remove nodes.
             printf("To add node enter 0\n");
@@ -17,18 +17,18 @@ int main(){
             printf("To exit press 3\n");
             while (1) {
                 printf("Your Choice: ");
-                scanf("%d", &in1);
-                switch (in1) {
+                scanf("%d", &x1);
+                switch (x1) {
                     case 0:
                         printf("Ok Please Enter the number u want to add\n");
-                        scanf("%d", &in2);
-                        add_node(in2, &head + count);
+                        scanf("%d", &x2);
+                        add_node(x2, &head + count);
                         count += 1;
                         break;
                     case 1:
                         printf("Ok Please Enter the number u want to remove\n");
-                        scanf("%d", &in2);
-                        remove_node(in2);
+                        scanf("%d", &x2);
+                        remove_node(x2);
                         count -= 1;
                         break;
                     case 2:
@@ -56,20 +56,20 @@ int main(){
             printf("To exit press 3\n");
             while (1) {
                 printf("Your Choice: ");
-                scanf("%d", &in1);
-                switch (in1) {
+                scanf("%d", &x1);
+                switch (x1) {
                     case 0:
                         printf("Ok Please Enter the number u want to add\n");
-                        scanf("%d", &in2);
+                        scanf("%d", &x2);
                         printf("Now Please Enter the number u want to add after\n");
-                        scanf("%d", &in1);
-                        add_node_before(in2, in1);
+                        scanf("%d", &x1);
+                        add_node_before(x2, x1);
                         count += 1;
                         break;
                     case 1:
                         printf("Ok Please Enter the number u want to remove\n");
-                        scanf("%d", &in2);
-                        remove_node(in2);
+                        scanf("%d", &x2);
+                        remove_node(x2);
                         count -= 1;
                         break;
                     case 2:
