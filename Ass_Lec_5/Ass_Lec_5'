@@ -4,14 +4,14 @@
 int max(int arr[]);
 int min(int arr[]);
 int main() {
-	int in1, in2, in3 = 0, arr[10], arr2[10], arr3[10];
+	int x1, x2, x3 = 0, arr[10], arr2[10], arr3[10];
 	int passed=0, failed=0, highest=0, lowest=0;
-	printf("Which assignment would u like to see? 1-2");
-	scanf("%d", &in1);
-	switch (in1) {
+	printf("Which assignment would u like to see? 1&2");
+	scanf("%d", &x1);
+	switch (x1) {
 		case 1:
-			// This Assignment asks the user for 10 values,
-			// stores them in an array Then prints there minimum and maximum.
+			// >>>>>>>>>>>>>> This Assignment asks the user for 10 values,
+			// >>>>>>>>>>>>>> stores them in an array Then prints there minimum and maximum.
 			for (int i = 0; i < 10; i++) {
 				printf("Please Enter number %d:", i);
 				scanf("%d", arr + i);
@@ -20,8 +20,8 @@ int main() {
 			printf("Minimum of array elements = %d", min(arr));
 			break;
 		case 2:
-			// This Assignment creates 3 10-student classes with random grades.
-			// Then prints some statistics about the 3 classes.
+			// >>>>>> This Assignment creates 3 10-student classes with random grades.
+			// >>>>>> Then prints some statistics about the 3 classes.
 			for (int i = 0; i < 10; i++) {
 				arr[i] = rand()%100+1;
 				if(arr[i]>=50){
