@@ -1,49 +1,47 @@
-//
-// Created by Ahmed Sayed Mousse on 11/27/2022.
-//
+
 #include <stdio.h>
 #include "functions.h"
 
-void Add(int in2, int in3){
-	printf("%d + %d = %d\n", in2, in3, in2+in3);
+void Add(int x2, int x3){
+	printf("%d + %d = %d\n", x2, x3, x2+x3);
 }
-void Sub(int in2, int in3){
-	printf("%d - %d = %d\n", in2, in3, in2-in3);
+void Sub(int x2, int x3){
+	printf("%d - %d = %d\n", x2, x3, x2-x3);
 
 }
-void Mul(int in2, int in3){
-	printf("%d * %d = %d\n", in2, in3, in2*in3);
+void Mul(int x2, int x3){
+	printf("%d * %d = %d\n",x2, x3, x2*x3);
 
 }
-void Div(int in2, int in3){
-	printf("%d / %d = %d\n", in2, in3, in2/in3);
+void Div(int x2, int x3){
+	printf("%d / %d = %d\n", x2, x3, x2/x3);
 
 }
-void Rem(int in2, int in3){
-	printf("%d % %d = %d\n", in2, in3, in2%in3);
+void Rem(int x2, int x3){
+	printf("%d % %d = %d\n", x2, x3, x2%x3);
 
 }
-void And(int in2, int in3){
-	printf("%d & %d = %d\n", in2, in3, in2&in3);
+void And(int x2, int x3){
+	printf("%d & %d = %d\n", x2, x3, x2&x3);
 
 }
-void Or(int in2, int in3){
-	printf("%d | %d = %d\n", in2, in3, in2|in3);
+void Or(int x2, int x3){
+	printf("%d | %d = %d\n", x2, x3, x2|x3);
 
 }
-void Not(int in2){
-	printf("!%d = %d\n", in2, !in2);
+void Not(int x2){
+	printf("!%d = %d\n", x2, !x2);
 
 }
-void Xor(int in2, int in3){
-	printf("%d ^ %d = %d\n", in2, in3, in2^in3);
+void Xor(int x2, int x3){
+	printf("%d ^ %d = %d\n", x2, x3, x2^x3);
 
 }
-void Inc(int in2){
-	printf("++%d = %d\n", in2, ++in2);
+void Inc(int x2){
+	printf("++%d = %d\n", x2, ++x2);
 
 }
-void Dec(int in2){
-	printf("--%d = %d\n", in2, in2);
+void Dec(int x2){
+	printf("--%d = %d\n",x2, x2);
 
 }
