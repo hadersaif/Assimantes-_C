@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include "LinkedList.h"
 int main(){
-    printf("which Assignment would u like to see. 1&2\n");
+    printf("Choose any assignment you want? 1&2\n");
     int x1, x2=0, count=0, *dynamic_arr, arr[10];
     scanf("%d", &x1);
     switch (x1) {
         case 1:
-            // This Assignment allows the user to use linked lists with the ability to remove nodes.
+            // >>>>>>>>> This Assignment allows the user to use linked lists with the ability to remove nodes.
             printf("To add node enter 0\n");
             printf("To remove node enter 1");
             printf("To print the linked list enter 2\n");
@@ -46,7 +46,7 @@ int main(){
                 }
             }
         case 2:
-            // This Assignment allows the user to use linked lists with the ability to add nodes at certain position.
+            // >>>>>>>>>>> This Assignment allows the user to use linked lists with the ability to add nodes at certain position.
             printf("To add node enter 0\n");
             printf("To remove node enter 1");
             printf("To print the linked list enter 2\n");
