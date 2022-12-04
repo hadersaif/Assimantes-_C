@@ -5,7 +5,7 @@ int min(int arr[]);
 int main() {
 	int x1, x2, x3 = 0, arr[4];
 	char operation[10];
-	printf("Which assignment would u like to see? 1&2");
+	printf("Choose any assignment you want 1&2");
 	scanf("%d", &x1);
 	switch (x1) {
 		case 1:
