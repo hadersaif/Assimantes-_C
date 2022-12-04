@@ -20,9 +20,9 @@ int main() {
 
             //>>>>>>>>>>>>>>>>>>Ass_Lec_6_2>>>>>>>>>>>>>>>>>>>
 
-// This Assignment defines 3 variables x,y,z and 3 pointers p, q, r
-			// prints with labels x, y, z, p, q, r, *p, *q, *r
-			// prints the swap code r =p; p=q; q=r; result ,reprints line 1
+// >>>>>> This Assignment defines 3 variables x,y,z and 3 pointers p, q, r
+			// >>>>>>> prints with labels x, y, z, p, q, r, *p, *q, *r
+			// >>>>>>> prints the swap code r =p; p=q; q=r; result ,reprints line 1
 			
 			x=0;y=5;z=1; p=&x; q=&y; r=&z;
 			printf("X: %d, Y: %d, Z: %d, p: %d, q: %d, r: %d,"
