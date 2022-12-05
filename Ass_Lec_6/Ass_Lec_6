@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 
-			// This Assignment applies bubble sort on an array using pointers
+
+                     //>>>>>>>>>>>>>>>>>>Ass_Lec_6_1>>>>>>>>>>>>>>>>>>>
+//>>>>>>>>>>>>  This Assignment applies bubble sort on an array using pointers
 
 
 void func(int *ptr){
@@ -34,7 +36,7 @@ int main()
 
 
 
-            //>>>>>>>>>>>>>>>>>>Ass_Lec_6_2>>>>>>>>>>>>>>>>>>>
+                     //>>>>>>>>>>>>>>>>>>Ass_Lec_6_2>>>>>>>>>>>>>>>>>>>
 
 // >>>>>> This Assignment defines 3 variables x,y,z and 3 pointers p, q, r
 			// >>>>>>> prints with labels x, y, z, p, q, r, *p, *q, *r
