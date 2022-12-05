@@ -1,20 +1,36 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void bubble_sort(int arr[]);
-int main() {
-	int in1, arr[10];
-	int x, y, z, *q, *p, *r;
 
-			// This Assignment applies bubble sort on an array using pointers.
-			for (int i = 0; i < 10; i++) {
-				printf("Please Enter number %d:", i);
-				scanf("%d", arr + i);
-			}
-			bubble_sort(arr);
-			printf("The sorted array is:\n");
-			for (int i = 0; i < 10; i++) {
-				printf("%d ", arr[i]);
-			}
+			// This Assignment applies bubble sort on an array using pointers
+
+
+void func(int *ptr){
+  int i, j, swap;
+  int n=5;
+  for(i=0;i<n-1;i++){
+	for(j=0;j<n-i-1;j++){
+		if (ptr[j]>ptr[j+1]){
+		  swap    =ptr[j];
+		  ptr[j]  =ptr[j+1];
+		  ptr[j+1]=swap;
+		}	}}
+for(int i=0; i<5; i++){
+  printf("%d\n",ptr[i]);
+}
+}
+
+int main()
+{
+    int arr[5];
+    printf("Enter Your 5 Elements to be Sorted: \n");
+    for (int i =0; i<5; i++){
+        scanf("%d",&arr[i]);
+    }
+ printf("Your sorted Elements are: \n");
+ func(arr);
+    return 0;
+}
 
 
 
@@ -24,30 +40,37 @@ int main() {
 			// >>>>>>> prints with labels x, y, z, p, q, r, *p, *q, *r
 			// >>>>>>> prints the swap code r =p; p=q; q=r; result ,reprints line 1
 			
-			x=0;y=5;z=1; p=&x; q=&y; r=&z;
-			printf("X: %d, Y: %d, Z: %d, p: %d, q: %d, r: %d,"
-				   " *p: %d, *q: %d, *r: %d", x,y,z,p,q,r,*p,*q,*r);
-			printf("Swapping pointers");
-			r=p; p=q; q=r;
-			printf("X: %d, Y: %d, Z: %d, p: %d, q: %d, r: %d,"
-				   " *p: %d, *q: %d, *r: %d", x,y,z,p,q,r,*p,*q,*r);
+int main()
+{
+  int x=77;
+  int y=66;
+  int z=88;
 
+  int* p=&x;
+  int* q=&y;
+  int* r=&z;
+  printf("value of x : %d\n",x);
+  printf("value of y : %d\n",y);
+  printf("value of z : %d\n",z);
+  printf("value of p : %d\n",p);
+  printf("value of q : %d\n",q);
+  printf("value of r : %d\n",r);
+  printf("value of *p : %d\n",*p);
+  printf("value of *q : %d\n",*q);
+  printf("value of *r : %d\n\n",*r);
 
-void bubble_sort(int *arr)
-;{
-	for (int i = 0; i < 9; i++) {
-		for(int j=0; j<9-i; j++){
-			if ( arr[j]>arr[j+1]){
-				int temp = arr[j];
-				arr[j] = arr[j+1];
-				arr[j+1] = temp;
-			}
-		}
-	}
-
-
-
-
-
-}
+  printf("Swapping Pointers..\n\n");
+  r=p;
+  p=q;
+  q=r;
+  printf("value of x : %d\n",x);
+  printf("value of y : %d\n",y);
+  printf("value of z : %d\n",z);
+  printf("value of p : %d\n",p);
+  printf("value of q : %d\n",q);
+  printf("value of r : %d\n",r);
+  printf("value of *p : %d\n",*p);
+  printf("value of *q : %d\n",*q);
+  printf("value of *r : %d\n",*r);
+    return 0;
 }
